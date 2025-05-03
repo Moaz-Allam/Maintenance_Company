@@ -6,8 +6,7 @@ A modern, responsive static website for a maintenance company showcasing service
 
 ## 🚀 Live Demo
 
-> If you have deployed it, link your live site here  
-> e.g. https://your-username.github.io/Maintenance_Company
+> https://www.mahart-alghad.com/
 
 ---
 
@@ -72,7 +71,7 @@ This is the official front‑end website for a maintenance company. It provides:
    ```bash
    git clone https://github.com/Moaz-Allam/Maintenance_Company.git
    cd Maintenance_Company
-````
+   ```
 
 2. **Install a simple HTTP server** (optional but recommended)
 
@@ -155,8 +154,6 @@ This project is licensed under the MIT License – see the [LICENSE](./LICENSE) 
 
 Maintenance Company – \[[your.email@example.com](mailto:your.email@example.com)]
 Project Link: [https://github.com/Moaz-Allam/Maintenance\_Company](https://github.com/Moaz-Allam/Maintenance_Company)
-
-```
 
 ---
 
