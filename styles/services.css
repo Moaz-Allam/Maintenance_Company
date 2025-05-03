@@ -1,0 +1,13 @@
+#services .cards {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+}
+
+#services .cards .card{
+    height: 400px;
+}

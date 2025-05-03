@@ -1,0 +1,78 @@
+.hero {
+    position: relative;
+    height: 50vh;
+    background-image: url('../assets/back1.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: top;
+    justify-content: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.hero-content {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.vision-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.vision-image {
+    /* align-items: center; */
+    border: 2px solid var(--primary-color); /* Use your primary color variable */
+    height: 70vh;
+    background-image: url("../assets/vision.png");
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 40px 0 40px 0;
+    width: 30vw;
+}
+
+.mission-col {
+    text-align: end;
+    flex: 1;
+}
+
+.vision-col {
+    flex: 1;
+}
+
+.mission-col .title-head {
+    justify-content: end;
+}
+
+.mission-col .title-head, .vision-col .title-head {
+    margin-bottom: 20px;
+}
+
+.vision-col h4 {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1023px) {
+    .vision-container {
+        flex-direction: column;
+    }
+
+
+    .vision-image {
+        height: 50vh;
+        width: 90vw;
+    }
+}

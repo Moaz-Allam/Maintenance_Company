@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mahart-alghad </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/logo.png" alt="Company Logo">
+        </div>
+        <div class="menu-button">
+            <button class="menub">
+                <img width="35px" src="../assets/menub.png" alt="Menu">
+            </button>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link active" data-translate="home"></a>
+            <a href="about.html" class="nav-link" data-translate="about"></a>
+            <a href="services.html" class="nav-link" data-translate="services"></a>
+            <a href="partners.html" class="nav-link" data-translate="projects"></a>
+        </div>
+        <div class="nav-buttons">
+            <button id="language-toggle" class="secondary-button" data-translate="english"></button>
+            <a href="mailto:Info@Maharat-alghad.com">
+                <button class="primary-button" data-translate="contact">Contact Us</button>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="slider">
+            <img src="../assets/back1.jpeg" alt="Background Image 1">
+            <img src="../assets/back2.png" alt="Background Image 2">
+            <img src="../assets/back3.png" alt="Background Image 3">
+            <img src="../assets/back4.png" alt="Background Image 4">
+        </div>
+        <div class="hero-content">
+            <div class="content-inner">
+                <h1 data-translate="hero_title"></h1>
+                <p data-translate="hero_description"></p>
+                <div class="buttons">
+                    <a href="services.html">
+                        <button data-translate="all_services" class="primary-button"></button>
+                    </a>
+                    <button class="secondary-button" data-translate="read_more"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-us">
+            <div class="about-image">
+                <img src="../assets/about.jpg" alt="About the Company">
+            </div>
+            <div class="about-content">
+                <div class="title-head">
+                    <h2><span data-translate="about_span"></span></h2>
+                    <img src="../assets/titlel.svg" alt="">
+                </div>
+                <h3 data-translate="about_title"></h3>
+                <p data-translate="about_description"></p>
+                <button class="primary-button"><a href="about.html" data-translate="explore_more"></a></button>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="title-head">
+                <img src="../assets/titler.svg" alt="">
+                <h1 data-translate="services_title"><span></span></h1>
+                <img src="../assets/titlel.svg" alt="">
+            </div>
+            <p data-translate="services_description"></p>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="../assets/service2.png" alt="Service 2">
+                    <div class="card-content" dir="auto">
+                        <h4 data-translate="maintenance_title"></h4>
+                        <a href="services.html"><button class="primary-button" data-translate="see_more"></button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/service3.png" alt="Service 3">
+                    <div class="card-content" dir="auto">
+                        <h4 data-translate="landscaping_title"></h4>
+                        <a href="services.html"><button class="primary-button" data-translate="see_more"></button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/service1.png" alt="Service 1">
+                    <div class="card-content" dir="auto">
+                        <h4 data-translate="cleaning_title"></h4>
+                        <a href="services.html"><button class="primary-button" data-translate="see_more"></button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/service5.png" alt="Service 5">
+                    <div class="card-content" dir="auto">
+                        <h4 data-translate="Specialized_Hospital_title"></h4>
+                        <a href="services.html"><button class="primary-button" data-translate="see_more"></button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners">
+            <div class="title-head">
+                <img src="../assets/titler.svg" alt="">
+                <h1 data-translate="partners_title"></h1>
+                <img src="../assets/titlel.svg" alt="">
+            </div>
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="../assets/parteners/part1.png" />
+                    <img src="../assets/parteners/part2.png" />
+                    <img src="../assets/parteners/part1.png" />
+                    <img src="../assets/parteners/part2.png" />
+                </div>
+
+                <div class="logos-slide">
+                    <img src="../assets/parteners/part1.png" />
+                    <img src="../assets/parteners/part2.png" />
+                    <img src="../assets/parteners/part1.png" />
+                    <img src="../assets/parteners/part2.png" />
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <div class="content-wrapper">
+                <h1 data-translate="contact_title"></h1>
+                <form class="contact-form" id="myForm" action="https://formsubmit.co/Info@Maharat-alghad.com" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-translate="name_label"></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="email_label"></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-translate="message_label"></label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="primary-button" data-translate="submit_button"></button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://wa.me/0555220473" class="social-link" target="_blank">
+                    <img src="../assets/whatsapp.png" alt="Whatsapp">
+                </a>
+                <a href="https://x.com/mahart_alghad?t=Nd_IrzKm8WCdDnDtWDOqqQ&s=08" class="social-link" target="_blank">
+                    <img src="../assets/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/mahar_alghad" class="social-link" target="_blank">
+                    <img src="../assets/instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <div class="footer-nav">
+                <a href="index.html" data-translate="footer_home"></a>
+                <a href="about.html" data-translate="footer_about"></a>
+                <a href="services.html" data-translate="footer_services"></a>
+                <a href="partners.html" data-translate="footer_projects"></a>
+            </div>
+            <div class="contact-info">
+                <p data-translate="footer_contact">
+                    <a href="mailto:Info@Mahart-alghad.com"></a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p data-translate="copyright_text"></p>
+            <a href="mailto:Info@jmhussein89@gmail.com" target="_blank">
+                <p data-translate="creator"></p>
+            </a>
+        </div>
+    </footer>
+
+    <script src="../scripts/scroll.js"></script>
+    <script src="../scripts/language-switch.js"></script>
+    <script src="../scripts/menu-toggle.js"></script>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
+</body>
+
+</html>

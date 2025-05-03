@@ -1,0 +1,26 @@
+.clients-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .client-logo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    border: 1px solid #eaeaea; /* Optional: Add border to each logo */
+  }
+  
+  .client-logo img {
+    max-width: 150px;
+  }
+
+
+@media (max-width: 1023px) {
+    .clients-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+  
